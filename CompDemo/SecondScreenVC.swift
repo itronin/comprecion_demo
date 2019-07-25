@@ -18,7 +18,7 @@ class SecondScreenVC: UIViewController {
         performSegue(withIdentifier: "goToThirdScreen", sender: self)
     }
     
-    private let dataSource = ["Short-term", "Med-term", "Long-term"]
+    private let dataSource = ["Super Short-term new!", "Med_Med-term", "Ultra_Long-term"]
     
     var finalPick = ""
     
